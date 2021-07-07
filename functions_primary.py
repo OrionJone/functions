@@ -38,12 +38,13 @@ print('The absolute value of -15 is:', abs(-15))
 #   1 - Define a function that will print out your name.
 #   2 - Define a function that will print out three animals that you like.
 #   3 - Define a function that will print the three odd numbers.
-#
 # Calling the functions:
 #   1 - Call each function once.
 #
 # WRITE CODE BELOW
-
+print('Orion Jones')
+print('Frogs, Dogs, and Cats')
+print('1,3,5')
 
 # 2 | Function Definitions with Parameters
 #
@@ -52,10 +53,13 @@ print('The absolute value of -15 is:', abs(-15))
 #
 # Define the following functions:
 #   1 - Define a function that will print out the cube of a number.
+    cube()
 #       a. Parameters:
 #           Name | Type(s)         | Description
 #           num  | Integer / Float | The number to be cubed.
 #   2 - Define a function that will print the sum of three numbers.
+def addition():
+    print(1+2+3)
 #       a. Parameters:
 #           Name | Type(s)         | Description
 #           a    | Integer / Float | A number. Will be added with b and c to find the sum.
@@ -65,9 +69,18 @@ print('The absolute value of -15 is:', abs(-15))
 #       a. Parameters
 #           Name | Type(s)| Description
 #           text | String | The text to be duplicated.
+def multiply():
+    print(hello)
+    print(hi)
+    print(hello)
+    print(hi)
+    print(hello)
 #
 # Calling the functions:
 #   1 - Call each function once.
+multiply()
+addition()
+
 #   2 - For the 3rd function, save the return value to a variable and print it.
 #
 # WRITE CODE BELOW
